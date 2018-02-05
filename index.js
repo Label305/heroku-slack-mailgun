@@ -27,7 +27,7 @@ const slackgun = SlackGun({
         channel, // Optional. By default we'll send to the #general channel.
         options: 'object', // Optional. Options to pass to https://github.com/xoxco/node-slack#install-slack
         username: 'Mailgun', // Optional. By default we'll send using the "Mailgun" username to slack.
-        icon_emoji: 'mailbox_with_mail', // Optional. By default we'll set the icon to :mailbox_with_mail:
+        icon_emoji: ':mailbox_with_mail:', // Optional. By default we'll set the icon to :mailbox_with_mail:
     },
     mailgun: { // Options for mailgun
         apikey, // Optional. Used for verifying the HMAC token sent with a request.
