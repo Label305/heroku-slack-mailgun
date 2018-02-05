@@ -1,8 +1,16 @@
 {
-  "name": "Start on Heroku: Node.js",
-  "description": "A barebones Node.js app using Express 4",
-  "repository": "https://github.com/heroku/node-js-getting-started",
-  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
-  "keywords": ["node", "express", "heroku"],
-  "image": "heroku/nodejs"
+  "name": "Mailgun Slack webhook",
+  "description": "Simple mailgun slack webhook proxy",
+  "repository": "https://github.com/Label305/heroku-slack-mailgun",
+  "keywords": ["node", "express", "static", "slack", "mailgun"],
+   "env": {
+    "MAILGUNAPIKEY": {
+      "description": "Mailgun API key",
+      "required": "true"
+    },
+    "SLACKWEBHOOK": {
+      "description": "Slack Incomming Webhook URL",
+      "required": "true"
+    }
+  }
 }
