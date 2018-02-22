@@ -6,6 +6,6 @@ Simple proxy to route a Mailgun webhook call to a Slack webhook. Deploy free to 
 
 Your webhook URL will be: `https://{yourapp}.herokuapp.com/api/mailgun`.
 
-**This has nothing to do with the Mailgun addon for other Heroku apps.** It is purley a simple proxy so you can be notified of failed emails for any mailgun account (also non-Heroku ones).
+**This has nothing to do with the Mailgun addon for other Heroku apps.** It is purley a simple proxy so you can be notified of failed emails for any Mailgun account (also regular Mailgun accounts which are not a Heroku addon ones).
 
 ![screenshot](https://user-images.githubusercontent.com/44893/36527406-f4f57862-17b1-11e8-85ce-5ba3217b4cb6.png)
